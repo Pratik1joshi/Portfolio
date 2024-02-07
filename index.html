@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="left-nav">
+                <h2>Pratik</h2>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li><a class="hover" href="#header">Home</a></li>
+                    <li><a class="hover" href="#about-id">About</a></li>
+                    <li><a class="hover" href="#service">Services</a></li>
+                    <li><a class="hover" href="#projects">Projects</a></li>
+                    <li><a class="hover" href="#contacts">Contact me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                
+            </div>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-section">
+            <div class="left-body">
+                <div class="body-intro"><span id="hello-body">Hi,</span> I'm <span class="name-body">Pratik</span> a
+                    Frontend Developer
+                </div>
+                <div class="logos">
+                    <div class="insta logo-all"><a href="https://www.instagram.com/pratik_joshi0_0?igsh=MXJxenFiZTh5OXNqeA==" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="fb logo-all"><a href="https://www.facebook.com/tero.dai.5494360?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="linkedin logo-all"><a href="https://www.linkedin.com/in/pratik-joshi-4852882a2/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="github logo-all"><a href="https://github.com/Pratik1joshi" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                    <div class="twiter logo-all"><a href="https://twitter.com/Pratikjoshi9848" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></div>
+                </div>
+            </div>
+            <div class="right-body">
+            </div>
+        </div>
+
+        <div id="about-id" class="about-section">
+            <div class="hero-section">
+                <div class="img-section">
+                </div>
+                <div class="about-details">
+                    <h1>About Me</h1>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio aut quae accusantium ex, voluptatibus
+                    quasi fugit, dignissimos delectus saepe suscipit in aliquid repellendus? Error optio maxime
+                    molestias perferendis sunt? Inventore?nesciunt!
+                    <div class="skills-set">
+                        <p class="skills hover red">Skills</p>
+                        <p class="education hover">Education</p>
+                    </div>
+                    <div class="skills-list top">
+                        <h4>Web Development</h4>
+                        <p class="skills-edu">
+                            Responsive and well designed frontend
+                        </p>
+
+                        <h4>Technologies</h4>
+                        <p class="skills-edu">
+                            HTML, CSS, JavaScript, C etc
+                        </p>
+                    </div>
+                    <div class="skills-list bottom twotimer">
+                        <h4>2024</h4>
+                        <p class="skills-edu">
+                            Softwarica College - BSC.CS with AI
+                        </p>
+                        <h4>2021-2023</h4>
+                        <p class="skills-edu">
+                            Prasadi Academy - Science - GPA:3.5
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services" id="service">
+            <h2>My Services</h2>
+            <div class="service-section">
+                <div class="web-service">
+                    <div class="img-service"></div>
+                    <h3>Web Development</h3>
+                    <p class="web-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam maiores suscipit
+                        temporibus, blanditiis odio rem iusto libero sequi, soluta, earum sed! Aperiam ea cum incidunt
+                        iste voluptates labore quo beatae.
+                        Nam ut ex maiores, quas quaerat debitis officiis possimus?</p>
+                </div>
+                <div class="other-service">
+                    <div class="img-service"></div>
+                    <h3>Web Development</h3>
+                    <p class="web-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam maiores suscipit
+                        temporibus, blanditiis odio rem iusto libero sequi, soluta, earum sed! Aperiam ea cum incidunt
+                        iste voluptates labore quo beatae.
+                        Nam ut ex maiores, quas quaerat debitis officiis possimus?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-section">
+            <h2 class="project-line" id="projects">Projects</h2>
+            <div class="many-projects">
+                <div class="first-project project-box">
+                    <div class="img-project-all one-first"></div>
+                    <span class="about-projects">Amazon clone</span>
+                </div>
+                <div class="second-project project-box">
+                    <div class="img-project-all one-second"></div>
+                    <span class="about-projects">Tic-Tac-Toe</span>
+                </div>
+                <div class="third-project project-box">
+                    <div class="img-project-all one-third"></div>
+                    <span class="about-projects">Time with Progress Bar</span>
+                </div>
+                <div class="fourth-project project-box">
+                    <div class="img-project-all one-fourth"></div>
+                    <span class="about-projects">The Saviour of Sight</span>
+                </div>
+                <div class="fifth-project project-box">
+                    <div class="img-project-all one-fifth"></div>
+                    <span class="about-projects">Parallex Website</span>
+                </div>
+                <div class="sixth-project project-box">
+                    <div class="img-project-all one-sixth"></div>
+                    <span class="about-projects">Random Joke Generator</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="last-contactme-section">
+            <h2 id="contacts">Contact Me</h2>
+            <div class="last-box-section">
+                <div class="email-number">
+                    <span><i class="fa-solid fa-paper-plane"></i>jcprakash555@gmail.com</span>
+                    
+                    <span><i class="fa-solid fa-square-phone"></i>+977 9863995341</span>
+                   <br>
+                    <a href="logos/Pratik_Joshi_CV.pdf" download>Download CV</a>
+                </div>
+                <div class="form-message">
+                    <form method="post" action="https://script.google.com/macros/s/AKfycbxujaw-j0qaQnGJRSh1MRXxbhmg_Z7Hx2GKT_G6fHwXXJvG2tmse52U5bsvsnqXOoIS/exec">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" class="email-message" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button>Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p><i class="fa-regular fa-copyright"></i> Copyright 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>window.addEventListener("load", function() {
+        const form = document.getElementById('my-form');
+        form.addEventListener("submit", function(e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: 'POST',
+            body: data,
+          })
+          .then(() => {
+            alert("Success!");
+          })
+        });
+      });</script>
+</body>
+
+</html>
